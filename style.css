@@ -1,0 +1,73 @@
+/*
+Theme Name: Vrije Osse Fotoclub
+Theme URI: http://vrijeossefotoclub.nl/
+Author: Jaime Visser
+Author URI: http://hachijugo.com
+Description: Thema voor de vrije osse fotoclub.
+Version: 0.1
+License: GNU General Public License
+License URI: license.txt
+Tags: custom-menu, post-formats
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+/** Common **/
+body{
+font-family:sans-serif;
+}
+
+
+/** Index **/
+
+div#content{
+float: left;
+width: 100%;
+}
+
+div#posts{
+float: left;
+margin-right: 300px;
+}
+
+div#sidebar{
+float: right;
+margin-left: -300px;
+width: 300px;
+}
+
+article.thumbnail{
+margin-right: 20px;
+margin-bottom: 20px;
+display:inline-block;
+vertical-align: top;
+}
+
+article.thumbnail a{
+height: 300px;
+width: 300px;
+background-position: center center;
+background-size: cover;
+display: inline-block;
+text-decoration: none;
+}
+
+article.thumbnail a h2{
+background: #ffffff;
+margin: 0px;
+width: 250px;
+position: relative;
+height: 40px;
+top: 230px;
+right: -10px;
+opacity: 0.8;
+color: #000000;
+line-height: 40px;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+display: block;
+font-size: 14px;
+text-align: center;
+padding: 0 20px;
+}
