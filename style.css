@@ -12,6 +12,8 @@ Tags: custom-menu, post-formats
 This theme, like WordPress, is licensed under the GPL.
 */
 
+@import url("fonts/dejavu/stylesheet.css");
+
 /* RESET */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -34,10 +36,26 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+body{
+    font-family: "DejaVuSansCondensed";
+}
+
 div#super{
     width: 1022px;
     margin: 0 auto;
     border-left: 1px solid #AAAAAA;
     border-right: 1px solid #AAAAAA;
     border-bottom: 1px solid #AAAAAA;
+}
+
+header{
+    font-family: "DejaVuSansBook";
+    font-size: 48px;
+    padding: 20px 0 0 20px;
+    width: 500px;
+}
+
+header a{
+    text-decoration: none;
+    color: #000000;
 }
