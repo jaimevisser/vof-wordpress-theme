@@ -56,7 +56,17 @@ header h1{
 }
 
 header nav{
-    display: inline-block
+    display: inline-block;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding-right: 20px;
 }
 
 header a{
