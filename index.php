@@ -1,7 +1,7 @@
 <?php get_header();
     
     ?>
-    <main id="posts" role="main"><?php
+    <main class="posts" role="main"><?php
 
     if (have_posts()){
         while(have_posts()){
