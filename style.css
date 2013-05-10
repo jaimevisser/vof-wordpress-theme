@@ -48,11 +48,15 @@ div#super{
     border-bottom: 1px solid #AAAAAA;
 }
 
-header{
+header h1{
     font-family: "DejaVuSansBook";
     font-size: 48px;
     padding: 20px 0 0 20px;
-    width: 500px;
+    display: inline-block;
+}
+
+header nav{
+    display: inline-block
 }
 
 header a{
