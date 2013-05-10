@@ -1,9 +1,10 @@
 <?php
 
     add_theme_support( 'post-thumbnails' );
-
+    show_admin_bar( false );
     
     register_sidebar(array('name' => 'Sidebar'));
+    
     
     define("THEME_DIR", get_template_directory_uri());
     

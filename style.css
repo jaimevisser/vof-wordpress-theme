@@ -12,62 +12,24 @@ Tags: custom-menu, post-formats
 This theme, like WordPress, is licensed under the GPL.
 */
 
-/** Common **/
-body{
-font-family:sans-serif;
-}
-
-
-/** Index **/
-
-div#content{
-float: left;
-width: 100%;
-}
-
-div#posts{
-float: left;
-margin-right: 300px;
-}
-
-div#sidebar{
-float: right;
-margin-left: -300px;
-width: 300px;
-}
-
-article.thumbnail{
-margin-right: 20px;
-margin-bottom: 20px;
-display:inline-block;
-vertical-align: top;
-}
-
-article.thumbnail a{
-height: 300px;
-width: 300px;
-background-position: center center;
-background-size: cover;
-display: inline-block;
-text-decoration: none;
-}
-
-article.thumbnail a h2{
-background: #ffffff;
-margin: 0px;
-width: 250px;
-position: relative;
-height: 40px;
-top: 230px;
-right: -10px;
-opacity: 0.8;
-color: #000000;
-line-height: 40px;
-text-overflow: ellipsis;
-overflow: hidden;
-white-space: nowrap;
-display: block;
-font-size: 14px;
-text-align: center;
-padding: 0 20px;
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }

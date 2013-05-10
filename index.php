@@ -1,8 +1,7 @@
 <?php get_header();
     
     ?>
-    <div id="content">
-    <div id="posts" role="main"><?php
+    <main id="posts" role="main"><?php
 
     if (have_posts()){
         while(have_posts()){
@@ -13,8 +12,8 @@
     
     }
     
-    ?></div><?php
+    ?></main><?php
     get_sidebar();
-    ?></div><?php
+    ?><?php
     get_footer();
 ?>
