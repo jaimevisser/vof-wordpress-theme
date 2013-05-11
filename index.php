@@ -8,8 +8,6 @@
             the_post();
             get_template_part("posts/thumbnail");
         }
-    }else{
-    
     }
     
     ?></main><?php
