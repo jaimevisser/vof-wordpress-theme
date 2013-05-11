@@ -1,6 +1,6 @@
 <?php
     
-$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large');
+$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full');
 
 ?><article class="single">
     <h2 class="post-title">
@@ -10,7 +10,7 @@ $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID)
     <div class="featuredimage" style="background-image:url('<?php echo $large_image_url[0]; ?>');">
     </div>
 
-    <div style="content">
+    <div class="content">
         <?php the_content(); ?>
     </div>
 </article>
