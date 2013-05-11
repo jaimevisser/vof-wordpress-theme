@@ -76,7 +76,7 @@ header nav ul li{
 
 main.posts{
     display: block;
-    padding: 0 21px;
+    padding: 30px 21px 0;
 }
 
 article.thumbnail{
