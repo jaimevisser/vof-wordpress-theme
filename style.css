@@ -108,3 +108,9 @@ article.thumbnail a h2{
     font-size: 22px;
 }
 
+footer{
+    margin: 30px auto 5px;
+    font-size: 10px;
+    text-align: center;
+}
+
