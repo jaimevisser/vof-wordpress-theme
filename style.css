@@ -74,8 +74,18 @@ header nav ul li{
     padding-right: 20px;
 }
 
-main.posts{
+footer{
+    margin: 30px auto 5px;
+    font-size: 10px;
+    text-align: center;
+}
+
+main{
     display: block;
+}
+
+/* index */
+main.posts{
     padding: 30px 21px 0;
 }
 
@@ -106,11 +116,5 @@ article.thumbnail a h2{
     color: white;
     padding: 15px;
     font-size: 22px;
-}
-
-footer{
-    margin: 30px auto 5px;
-    font-size: 10px;
-    text-align: center;
 }
 
