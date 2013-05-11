@@ -42,7 +42,7 @@ body{
 
 div#super{
     width: 1022px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     border-left: 1px solid #AAAAAA;
     border-right: 1px solid #AAAAAA;
     border-bottom: 1px solid #AAAAAA;
@@ -82,7 +82,7 @@ main.posts{
 article.thumbnail{
     display: inline-block;
     vertical-align: top;
-    padding: 20px
+    padding: 10px 20px
 }
 
 article.thumbnail a{
