@@ -15,4 +15,6 @@ $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID)
     <div class="content">
         <?php the_content(); ?>
     </div>
+    
+    <div class="clearfloat"></div>
 </article>

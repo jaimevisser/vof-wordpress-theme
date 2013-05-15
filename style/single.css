@@ -18,3 +18,21 @@ article.single div.featuredimage {
 article.single div.content {
 	padding: 20px 41px;
 }
+
+article.single div.content p{
+	margin-bottom: 15px;
+}
+
+article.single div.content img.alignleft{
+	float: left;
+	margin: 10px 20px 10px -41px;
+}
+
+article.single div.content img.alignright{
+	float: right;
+	margin: 10px -41px 10px 20px;
+}
+
+article.single div.clearfloat{
+	clear: both;
+}

@@ -6,5 +6,5 @@ if (have_posts()){
 		get_template_part("single/featuredimg");
 	}
 }
-?> </main>
+?></main>
 <?php get_footer(); ?>
