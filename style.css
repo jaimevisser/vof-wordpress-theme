@@ -16,4 +16,5 @@ This theme, like WordPress, is licensed under the GPL.
 @import url("style/reset.css");
 @import url("style/common.css");
 @import url("style/index.css");
-@import url("style/single.css")
+@import url("style/single.css");
+@import url("style/gce.css");
