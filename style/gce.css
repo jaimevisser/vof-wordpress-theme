@@ -9,27 +9,36 @@ aside ul,aside li {
 	list-style: none;
 }
 
-aside#sidebar{
-	padding: 30px 0 0 41px;
+aside#sidebar {
 	display: block;
 }
 
-aside li.widget_gce_widget {	
+aside li.widget_gce_widget {
+	
 }
 
-aside li.widget_gce_widget h2{
+aside li.widget_gce_widget h2 {
 	font-size: 30px;
 	font-family: "DejaVuSansCondensedOblique";
+	background: #f5f1ee;
+	border-bottom: 1px solid #AAAAAA;
+	border-top: 1px solid #AAAAAA;
+	padding: 10px 41px;
 }
 
-aside li.widget_gce_widget div > ul > li{
+aside li.widget_gce_widget div>ul {
+	padding-left: 41px;
+	padding-top: 30px;
+}
+
+aside li.widget_gce_widget div>ul>li {
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 28px;
 	width: 160px;
 	height: 140px;
 	vertical-align: top;
 }
 
-aside li.widget_gce_widget div > ul > li > h3{
+aside li.widget_gce_widget div>ul>li>h3 {
 	font-size: 20px;
 }
