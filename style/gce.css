@@ -10,7 +10,7 @@ aside ul,aside li {
 }
 
 aside#sidebar{
-	padding: 30px 31px 0;
+	padding: 30px 0 0 41px;
 	display: block;
 }
 
@@ -18,16 +18,13 @@ aside li.widget_gce_widget {
 }
 
 aside li.widget_gce_widget h2{
-	padding: 0 10px;
 	font-size: 30px;
 	font-family: "DejaVuSansCondensedOblique";
 }
 
 aside li.widget_gce_widget div > ul > li{
-	border: 1px solid #AAAAAA;
 	display: inline-block;
-	padding: 5px;
-	margin: 10px;
+	margin-right: 10px;
 	width: 160px;
 	height: 140px;
 	vertical-align: top;
@@ -35,6 +32,4 @@ aside li.widget_gce_widget div > ul > li{
 
 aside li.widget_gce_widget div > ul > li > h3{
 	font-size: 20px;
-	padding: 5px 0;
-	text-align: center;
 }
