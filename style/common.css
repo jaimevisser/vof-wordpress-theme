@@ -10,11 +10,6 @@ div#super {
 	border-bottom: 1px solid #AAAAAA;
 }
 
-header a {
-	text-decoration: none;
-	color: #000000;
-}
-
 header{
 	padding-bottom: 30px;
 }
@@ -23,6 +18,19 @@ header h1 {
 	font-family: "DejaVuSansBook";
 	font-size: 48px;
 	padding: 30px 0 0 41px;
+	display: inline-block;
+}
+
+header > h1 > a {
+	text-decoration: none;
+	color: #000000;
+	text-indent: -1000px;
+	overflow: hidden;
+	vertical-align: bottom;
+	background-image: url("img/logo-hdpi.png");
+	height: 70px;
+	width: 616px;
+	background-size: cover;
 	display: inline-block;
 }
 
@@ -38,6 +46,11 @@ header nav ul {
 header nav ul li {
 	display: inline-block;
 	padding-right: 20px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: #000000;
 }
 
 footer {
